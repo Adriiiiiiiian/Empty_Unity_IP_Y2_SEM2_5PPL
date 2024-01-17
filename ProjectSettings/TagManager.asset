@@ -10,6 +10,10 @@ TagManager:
   - qn2w
   - qn3c
   - qn3w
+  - qn4c
+  - qn4w
+  - qn5c
+  - qn5w
   layers:
   - Default
   - TransparentFX

@@ -123,6 +123,48 @@ public class stickcontroller : MonoBehaviour
             wrongSound.Play();
 
         }
+
+        if (other.gameObject.CompareTag("qn4c"))
+        {
+            bonus4.gameObject.SetActive(true);
+
+            correct4.gameObject.SetActive(true);
+            stick4.gameObject.SetActive(false);
+            qn4.gameObject.SetActive(false);
+            models4.gameObject.SetActive(false);
+            rightSound.Play();
+        }
+
+        if (other.gameObject.CompareTag("qn4w"))
+        {
+            wrong4.gameObject.SetActive(true);
+            stick4.gameObject.SetActive(false);
+            qn4.gameObject.SetActive(false);
+            models4.gameObject.SetActive(false);
+            wrongSound.Play();
+
+        }
+
+        if (other.gameObject.CompareTag("qn5c"))
+        {
+            bonus5.gameObject.SetActive(true);
+
+            correct5.gameObject.SetActive(true);
+            stick5.gameObject.SetActive(false);
+            qn5.gameObject.SetActive(false);
+            models5.gameObject.SetActive(false);
+            rightSound.Play();
+        }
+
+        if (other.gameObject.CompareTag("qn5w"))
+        {
+            wrong5.gameObject.SetActive(true);
+            stick5.gameObject.SetActive(false);
+            qn5.gameObject.SetActive(false);
+            models5.gameObject.SetActive(false);
+            wrongSound.Play();
+
+        }
     }
 
 }
