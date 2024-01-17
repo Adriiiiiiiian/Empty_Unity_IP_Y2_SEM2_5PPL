@@ -64,6 +64,7 @@ public class stickcontroller : MonoBehaviour
         if (other.gameObject.CompareTag("qn1c"))
         {
             bonus1.gameObject.SetActive(true);
+
             correct1.gameObject.SetActive(true);
             stick1.gameObject.SetActive(false);
             qn1.gameObject.SetActive(false);
@@ -77,6 +78,48 @@ public class stickcontroller : MonoBehaviour
             stick1.gameObject.SetActive(false);
             qn1.gameObject.SetActive(false);
             models1.gameObject.SetActive(false);
+            wrongSound.Play();
+
+        }
+
+        if (other.gameObject.CompareTag("qn2c"))
+        {
+            bonus2.gameObject.SetActive(true);
+
+            correct2.gameObject.SetActive(true);
+            stick2.gameObject.SetActive(false);
+            qn2.gameObject.SetActive(false);
+            models2.gameObject.SetActive(false);
+            rightSound.Play();
+        }
+
+        if (other.gameObject.CompareTag("qn2w"))
+        {
+            wrong2.gameObject.SetActive(true);
+            stick2.gameObject.SetActive(false);
+            qn2.gameObject.SetActive(false);
+            models2.gameObject.SetActive(false);
+            wrongSound.Play();
+
+        }
+
+        if (other.gameObject.CompareTag("qn3c"))
+        {
+            bonus3.gameObject.SetActive(true);
+
+            correct3.gameObject.SetActive(true);
+            stick3.gameObject.SetActive(false);
+            qn3.gameObject.SetActive(false);
+            models3.gameObject.SetActive(false);
+            rightSound.Play();
+        }
+
+        if (other.gameObject.CompareTag("qn3w"))
+        {
+            wrong3.gameObject.SetActive(true);
+            stick3.gameObject.SetActive(false);
+            qn3.gameObject.SetActive(false);
+            models3.gameObject.SetActive(false);
             wrongSound.Play();
 
         }
