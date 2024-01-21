@@ -1,3 +1,9 @@
+/*
+ * Author: Grace Foo
+ * Date: 16/1/2024
+ * Description: Code for game manager
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -23,5 +29,11 @@ public class gamemanager : MonoBehaviour
     public void increaseCount()
     {
         gamecount = gamecount + 1;
+    }
+
+    public void openGreenhouse()
+    {
+        //set active old one
+        //set active new one
     }
 }
