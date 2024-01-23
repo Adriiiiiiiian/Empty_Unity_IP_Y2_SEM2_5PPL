@@ -14,6 +14,9 @@ TagManager:
   - qn4w
   - qn5c
   - qn5w
+  - roofdrag
+  - floordrag
+  - fencedrag
   layers:
   - Default
   - TransparentFX
