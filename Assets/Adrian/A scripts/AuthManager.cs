@@ -137,7 +137,7 @@ public class AuthManager : MonoBehaviour
                 Debug.LogFormat("Welcome to Ant Farm Simulator {0}", newPlayer.User.UserId);
 
                 Debug.Log("signed in");
-                SceneManager.LoadScene("SampleScene");
+                
 
                 //do anything you want after player creation eg. create new player
 
