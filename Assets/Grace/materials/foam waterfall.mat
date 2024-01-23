@@ -40,7 +40,7 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _eroson: 0.4
+    - _eroson: 0.45
     - _rippleAmt: 4.31
     - _vertexOffset: 0.1
     - _voronoiScale: -0.5
